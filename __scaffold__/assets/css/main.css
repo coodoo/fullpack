@@ -1,0 +1,23 @@
+/* 引入所有 normalize.css 內容 */
+@import "~normalize.css/normalize.css";
+
+/* normalize.css 決定不包含此功能，認為那是 reset 而非 normalize
+------------------------------------------------------------- */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+/* app styles 開始
+------------------------------------------------------------- */
+
+.placeholder {
+
+}

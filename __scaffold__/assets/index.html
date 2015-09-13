@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Redux TodoMVC</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script>window.reduxState = '${state}'</script>
+  </head>
+  <body>
+
+    <div class="container">${markup}</div>
+
+  </body>
+
+  <!--
+
+  單機版的寫法，正好與僅需啟用 livereload 時寫法一樣，都是這兩行就好
+  HMR 是 bundling 時會通通加進去的
+  <script src="http://localhost:9090/webpack-dev-server.js"></script>
+  <script src="/build/bundle.js"></script>
+
+  雙機版則僅需下面這行
+  -->
+  <script id='bundle' src="http://localhost:9090/build/bundle.js"></script>
+
+</html>
