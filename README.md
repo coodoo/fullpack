@@ -9,7 +9,7 @@ Design Goal
 -----------
 
 For server:
-Start `webpack` to watch and compile server files when they changed, also reload the newly compiled files
+Start `webpack` to watch and compile server files whenever they change, also reload the newly compiled file to make it effective
 
 For client:
 Start `webpack-dev-server` to watch, compile and server files via `hot-reload` module for browser

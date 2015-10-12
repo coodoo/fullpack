@@ -137,7 +137,7 @@ var defaultParams = {
     hot: true,
     inline: true,
     fullUrl: true, // publicPath 是否要加上 http://localhost:9090/ 這字段
-    devtool: 'eval', // '#source-map'
+    devtool: configs.client.devtool || 'eval', // '#source-map'
     debug: false
 }
 
